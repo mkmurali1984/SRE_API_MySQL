@@ -7,6 +7,7 @@ namespace SRE_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Filters.APIKeyAuth]
     public class PropertiesController : ControllerBase
     {
         private readonly PropertiesServices propertiesServices;
