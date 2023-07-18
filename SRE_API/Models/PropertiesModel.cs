@@ -16,7 +16,9 @@ namespace SRE_API.Models
 
         public string? ContactNumber { get; set; } 
 
-        public string? EmailAddress { get; set; } 
+        public string? EmailAddress { get; set; }
+
+        public string? Location { get; set; }
 
         public string? Purpose { get; set; }
 

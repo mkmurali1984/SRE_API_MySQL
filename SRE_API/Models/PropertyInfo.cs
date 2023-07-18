@@ -31,6 +31,8 @@ public partial class PropertyInfo
 
     public string? MapUrl { get; set; }
 
+    public string? Location { get; set; }
+
     public string? ImageFileName { get; set; }
 
     public bool? IsActive { get; set; }
