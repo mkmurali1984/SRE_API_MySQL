@@ -28,7 +28,7 @@ namespace SRE_API.Services
                     PId =Convert.ToString( prop.Pid),
                     ContactNumber = prop.ContactNumber,
                     dimensions = prop.Dimension,
-                    EmailAddress = prop.EmailAddress,
+                    EmailAddress = prop.EmailAddress, 
                     ImageFileName = prop.ImageFileName,
                     IsActive = prop.IsActive,
                     IsApproved = prop.IsApproved,

@@ -67,5 +67,13 @@ namespace SRE_API.Controllers
                 propertiesServices.updateProperties(id, propertiesModel);
             }
         }
+
+        [HttpGet]
+        [Route("GetByID")]
+        public  PropertiesModel GetById(string id)
+        {
+            return propertiesServices.GetPropertyById(id);
+
+        }
     }
 }
